@@ -114,11 +114,11 @@ export default function Home() {
               Your supportive AI companion for stress, motivation & confidence
             </Typography>
           </Box>
-          {isApiHealthy === false && (
+          {/* {isApiHealthy === false && (
             <Alert severity="warning" className={styles.apiWarning}>
               API is offline. Please start the backend server.
             </Alert>
-          )}
+          )} */}
           <IconButton
             onClick={() => setIsInfoModalOpen(true)}
             className={styles.infoButton}
