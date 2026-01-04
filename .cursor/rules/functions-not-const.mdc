@@ -1,0 +1,39 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+**Glob:** `**/*.tsx, **/*.ts`
+
+## ✅ Correct Usage
+
+```typescript
+// Use regular function declarations
+function handleClick() {
+  setCount(count + 1);
+}
+
+async function fetchData() {
+  const response = await api.get('/data');
+  setData(response.data);
+}
+```
+
+## ❌ Incorrect Usage
+
+```typescript
+// Avoid arrow functions assigned to constants
+const handleClick = () => {
+  setCount(count + 1);
+}
+
+const fetchData = async () => {
+  const response = await api.get('/data');
+  setData(response.data);
+}
+```
+## Rationale
+- Function declarations have clearer semantics
+- Consistent with traditional JavaScript function style
+- Better for debugging (named in stack traces)
+- Maintain consistent coding standards across the codebase

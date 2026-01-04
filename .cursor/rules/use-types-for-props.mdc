@@ -1,0 +1,34 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+ # Use Types for Props
+
+**Glob:** `**/*.tsx`
+
+When defining props for React components, use `type` instead of `interface`. Types are more flexible and better suited for props as they are more easily composed and can represent unions.
+
+## ✅ Correct Usage
+
+```typescript
+type MyComponentProps = {
+  name: string;
+  age: number;
+};
+```
+
+## ❌ Incorrect Usage
+
+```typescript
+interface MyComponentProps {
+  name: string;
+  age: number;
+}
+```
+
+## Rationale
+- Types are more flexible for composition
+- Better support for union types
+- More consistent with modern TypeScript practices
+- Simpler to refactor and maintain

@@ -1,0 +1,17 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Your rule content
+when making css classnames they should be unique to the class you are working in.  This is so styles from a certain component do not interfere with another
+
+So for the files
+[ChatMessage.tsx](mdc:ui/components/ChatMessage.tsx)
+@ui/components/ChatMessage.module.css
+
+The classnames in css for example for a dialog-content class should start with the dash-case-name-of-the-component, then use the actual css name ie dialog-component.
+for the ChatMessage component, convert the name to skewer or dash case like: chat-message
+you would use the name
+chat-message-dialog-content

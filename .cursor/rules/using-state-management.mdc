@@ -1,0 +1,9 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Your rule content
+
+prefer using local useState() from react over State.set() / State.get() for most state changes.

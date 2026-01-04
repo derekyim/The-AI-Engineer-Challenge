@@ -11,3 +11,20 @@ alwaysApply: false
 - You should use Next.js as it works best with Vercel. 
 - This frontend will ultimately be deployed on Vercel, but it should be possible to test locally. 
 - Always provide users with a way to run the created UI once you have created it.
+
+### Theme & Color Palette
+
+- You must follow the **Official Google Color Palette** for all UI components:
+  - **Google Blue**: `#4285F4` - Primary actions, links, and interactive elements
+  - **Google Red**: `#EA4335` - Errors, alerts, and destructive actions
+  - **Google Yellow**: `#FBBC05` - Warnings and highlights
+  - **Google Green**: `#34A853` - Success states and confirmations
+- Use these colors consistently across buttons, icons, text accents, and status indicators.
+- For neutral colors, use Google's recommended grays:
+  - Text primary: `#202124`
+  - Text secondary: `#5F6368`
+  - Borders/dividers: `#DADCE0`
+  - Background: `#FFFFFF` (light) or `#202124` (dark mode)
+- Maintain sufficient contrast ratios (WCAG AA minimum) when combining these colors.
+- Use Google Blue as the primary brand/accent color throughout the application.
+

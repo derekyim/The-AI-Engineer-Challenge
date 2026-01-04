@@ -1,0 +1,18 @@
+---
+alwaysApply: true
+---
+
+### Project setup for Frontend
+- use Material-UI for all UI comonents
+- use React 18 for all UI 
+- there is a folder structure ui/ each folder should be used appropriately
+-- Components - should contain re-usable components
+-- Main - should contain React core components
+-- Pages - should contain Page entrypoints, those included in routing
+-- Services - should contain any code talking to external databases or APIs
+-- Utilities - re-usable and shared utilities in the project
+
+
+### nvm and npm
+This project has npm installed via nvm
+use need to use 'nvm use v20' prior to any npm commands to make sure to get the latest and correct version

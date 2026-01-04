@@ -1,5 +1,7 @@
 # Project Specific
 uv.lock
+ui/node_modules/
+ui/.next/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -131,6 +133,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+api/.env
+api/.env.local
+ui/.env.local
+ui/.env
 
 # Spyder project settings
 .spyderproject

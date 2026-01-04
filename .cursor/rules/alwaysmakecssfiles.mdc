@@ -1,0 +1,20 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Your rule content
+DO NOT use any inline css
+DO NOT use React Styled Components.
+DO NOT use any css frameworks like less or sass or tailwind
+Only use straight CSS
+Always make a css file in the same directory of a component with the same name.
+never have duplicate selectors in a css file, please combine and reconcile them.
+
+The Component named ChatMessage should have a .module.css file with all css included
+
+[ChatMessage.tsx](mdc:ui/components/ChatMessage.tsx)
+@ChatMessage.module.css
+
+

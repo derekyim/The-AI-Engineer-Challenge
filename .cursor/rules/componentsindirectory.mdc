@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+If you make a React comopnent called ChatMessage
+it needs to go into a directory
+ChatMessage
+containing 2 files
+[ChatMessage.module.css](mdc:ui/components/ChatMessage.module.css)
+[ChatMessage.tsx](mdc:ui/components/ChatMessage.tsx)
+
+# Your rule content

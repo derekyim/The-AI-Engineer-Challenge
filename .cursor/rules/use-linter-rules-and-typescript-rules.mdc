@@ -1,0 +1,25 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Your rule content
+
+we have an .eslintrc file in this project
+please follow these linter rules for all new code written
+
+
+Be vigilant about TypeScript errors when writing code. 
+TypeScript type safety is important for maintaining code quality and preventing runtime errors.
+When writing tests or any TypeScript code, make sure to:
+Add explicit type annotations for variables, especially empty arrays and objects where TypeScript can't infer the type
+Use proper type assertions when necessary (using as syntax)
+Define interfaces or types for complex objects
+Check for null/undefined values and handle them appropriately
+Pay attention to function parameter and return types
+
+basically
+follow all rules in the tsconfig.json 
+
+follow .editorconfig too

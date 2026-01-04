@@ -1,0 +1,60 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Global Colors and Styles
+
+**Glob:** `**/*.css, **/*.tsx`
+
+## Color Usage Policy
+
+All colors in the application MUST use variables from `/colors.css` or `/index.css`. 
+Never use raw hex codes, RGB values, or non-existent color variables in the codebase.
+
+## Available Color Variables
+
+Colors in this project use the naming pattern `--BRAND-COLOR-*` or `--GREY-*` (all uppercase with dashes):
+
+- Main brand colors: `--BRAND-COLOR-PRIMARY`, `--BRAND-COLOR-SECONDARY`
+- Grey scale: `--GREY-50`, `--GREY-100`, `--GREY-200`, `--GREY-300`, etc.
+- Text colors: `--BRAND-COLOR-TEXT`, `--BRAND-COLOR-SUBTEXT`
+- Background colors:  `--BACKGROUND-DEFAULT`, `--BRAND-CARD-BACKGROUND-COLOR`
+
+Before creating a new color, check if an existing one can be used.
+
+## ✅ Correct Usage
+
+```css
+.my-element {
+  color: var(--BRAND-COLOR-PRIMARY);
+  background-color: var(--GREY-50);
+}
+```
+
+## ❌ Incorrect Usage
+
+```css
+/* Don't use hex codes directly */
+.my-element {
+  color: #1976d2;
+}
+
+/* Don't use non-existent variables */
+.my-element {
+  color: var(--primary-main); /* ❌ This doesn't exist in our system */
+}
+
+/* Don't use RGB values */
+.my-element {
+  color: rgb(25, 118, 210);
+}
+```
+
+## Process for Adding New Colors
+
+If you need a new color, add it to `/colors.css` with proper documentation and get approval from the design team.
+
+[index.css](mdc:ui/index.css)
+[colors.css](mdc:ui/colors.css)
+

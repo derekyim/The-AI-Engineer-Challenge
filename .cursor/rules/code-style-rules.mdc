@@ -1,0 +1,12 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+
+Always use braces around code even if not required
+do this:
+if (something) {return false};
+
+NOT
+if (something) return false;

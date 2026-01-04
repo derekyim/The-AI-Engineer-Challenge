@@ -1,0 +1,10 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Your rule content
+when asked to do a task, make the minimum set of changes unless asked to
+* do NOT delete code not directly related to the task
+* do NOT clean up or refactor code

@@ -1,0 +1,15 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Your rule content
+- Always use Material UI Components
+
+- Always use React Functional components of this style ->
+
+-- export default function ChatMessage({ theThing }: { theThing: string }) {
+Use React 18 syntax
+
+- If you have to make a web form, please use React Forms
+
